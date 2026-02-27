@@ -73,6 +73,7 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
+    fetch('/api/log').catch(() => {})
     window.location.href = 'yes.html'
 }
 
