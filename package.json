@@ -1,16 +1,14 @@
 {
   "name": "v-day",
   "version": "1.0.0",
-  "type": "module",
   "builds": [
     {
-      "src": "api/**/*",
+      "src": "api/log.js",
       "use": "@vercel/node"
     },
     {
       "src": "**",
       "use": "static"
     }
-  ],
-  "version": 2
+  ]
 }
