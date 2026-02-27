@@ -1,9 +1,5 @@
 {
   "name": "v-day",
   "version": "1.0.0",
-    {
-      "src": "**",
-      "use": "static"
-    }
-  ]
+  "private": true
 }
