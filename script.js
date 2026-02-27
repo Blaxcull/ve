@@ -73,8 +73,9 @@ function handleYesClick() {
         showTeaseMessage(msg)
         return
     }
-    fetch('/api/log').catch(() => {})
-    window.location.href = 'yes.html'
+    fetch('/api/log', { method: 'POST' }).then(() => {
+        window.location.href = 'yes.html'
+    })
 }
 
 function showTeaseMessage(msg) {

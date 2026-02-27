@@ -1,0 +1,14 @@
+{
+  "name": "v-day",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "src": "api/**/*",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "**",
+      "use": "static"
+    }
+  ]
+}
