@@ -12,10 +12,12 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-image:
-        radial-gradient(circle at 15% 85%, #ffb3c1 0%, transparent 40%),
-        radial-gradient(circle at 85% 15%, #ff8fa3 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%);
+    background-image: 
+        linear-gradient(rgba(255, 228, 232, 0.7), rgba(255, 228, 232, 0.7)),
+        url('Assets/pic.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Floating hearts background */
