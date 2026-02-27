@@ -1,6 +1,4 @@
 {
-  "name": "v-day",
-  "version": "1.0.0",
   "builds": [
     {
       "src": "api/**/*",
@@ -10,5 +8,6 @@
       "src": "**",
       "use": "static"
     }
-  ]
+  ],
+  "version": 2
 }
